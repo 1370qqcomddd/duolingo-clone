@@ -35,7 +35,7 @@ export const createStripeUrl = async () => {
       {
         quantity: 1,
         price_data: {
-          currency: "USD",
+          currency: "RMB",
           product_data: {
             name: "Dumbo Pro",
             description: "无限橙子，学习高效神速、乐趣无穷!",
