@@ -10,14 +10,14 @@ export const Promo = () => {
         <div className="flex items-center gap-x-2">
           <Image src="/unlimited.svg" alt="Pro" height={26} width={26} />
 
-          <h3 className="text-lg font-bold">Upgrade to Pro</h3>
+          <h3 className="text-lg font-bold">升级至 Dumbo+</h3>
         </div>
 
-        <p className="text-muted-foreground">Get unlimited hearts and more!</p>
+        <p className="text-muted-foreground">无限橙子，学习高效神速、乐趣无穷!</p>
       </div>
 
       <Button variant="super" className="w-full" size="lg" asChild>
-        <Link href="/shop">Upgrade today</Link>
+        <Link href="/shop">现在就升级! 支持Dumbo的免费教育</Link>
       </Button>
     </div>
   );

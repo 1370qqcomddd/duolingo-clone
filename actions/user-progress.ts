@@ -87,7 +87,7 @@ export const reduceHearts = async (challengeId: number) => {
 
   if (userSubscription?.isActive) return { error: "subscription" };
 
-  if (currentUserProgress.hearts === 0) return { error: "hearts" };
+  if (currentUserProgress.hearts === 0) return { error: "橙子" };
 
   await db
     .update(userProgress)
@@ -108,9 +108,9 @@ export const refillHearts = async () => {
 
   if (!currentUserProgress) throw new Error("User progress not found.");
   if (currentUserProgress.hearts === MAX_HEARTS)
-    throw new Error("Hearts are already full.");
+    throw new Error("橙子已经装满了!");
   if (currentUserProgress.points < POINTS_TO_REFILL)
-    throw new Error("Not enough points.");
+    throw new Error("橙子不够了!");
 
   await db
     .update(userProgress)

@@ -44,11 +44,11 @@ export const HeartsModal = () => {
           </div>
 
           <DialogTitle className="text-center text-2xl font-bold">
-            You ran out of hearts!
+            糟糕,没有更多橙子了!!!
           </DialogTitle>
 
           <DialogDescription className="text-center text-base">
-            Get Pro for unlimited hearts, or purchase them in the store.
+            购买 Dumbo 以获得无限橙子! PS:你也可以在你已经通关的关卡中答题来免费获得橙子...
           </DialogDescription>
         </DialogHeader>
 
@@ -60,7 +60,7 @@ export const HeartsModal = () => {
               size="lg"
               onClick={onClick}
             >
-              Get unlimited hearts
+              获得无限橙子!
             </Button>
 
             <Button
@@ -69,7 +69,7 @@ export const HeartsModal = () => {
               size="lg"
               onClick={close}
             >
-              No thanks
+              不了谢谢
             </Button>
           </div>
         </DialogFooter>

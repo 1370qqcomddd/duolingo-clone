@@ -38,9 +38,9 @@ export const createStripeUrl = async () => {
           currency: "USD",
           product_data: {
             name: "Dumbo Pro",
-            description: "Unlimited hearts.",
+            description: "无限橙子，学习高效神速、乐趣无穷!",
           },
-          unit_amount: 2000, // $20.00 USD
+          unit_amount: 900, // $20.00 USD
           recurring: {
             interval: "month",
           },
