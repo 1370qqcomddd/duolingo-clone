@@ -16,7 +16,7 @@ export const siteConfig: Metadata = {
     "radix-ui",
     "cn",
     "clsx",
-    "lingo",
+    "dumbo",
     "postgresql",
     "sonner",
     "drizzle",

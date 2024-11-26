@@ -259,7 +259,7 @@ Once the script completes, check your database to ensure that the challenges dat
 
 ## :wrench: Stats
 
-[![Stats for Lingo](/.github/images/stats.svg "Stats for Lingo")](https://pagespeed.web.dev/analysis?url=https://lingo-clone.vercel.app/ "Stats for Lingo")
+[![Stats for Lingo](/.github/images/stats.svg "Stats for Dumbo")](https://pagespeed.web.dev/analysis?url=https://lingo-clone.vercel.app/ "Stats for Lingo")
 
 ## :raised_hands: Contribute
 
@@ -267,7 +267,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 ## :gem: Acknowledgements
 
-Useful resources and dependencies that are used in Lingo.
+Useful resources and dependencies that are used in Dumbo.
 
 - Special Thanks to Kenney Assets: https://kenney.nl/
 - Freesound: https://freesound.org/
