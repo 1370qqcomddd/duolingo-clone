@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "Lingo",
+  title: "Dumbo",
   description:
     "Interactive platform for language learning with lessons, quizzes, and progress tracking.",
   keywords: [
@@ -9,7 +9,7 @@ export const siteConfig: Metadata = {
     "nextjs",
     "vercel",
     "react",
-    "duolingo-clone",
+    "Dumbo",
     "learn-language",
     "shadcn",
     "shadcn-ui",
@@ -40,11 +40,11 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "PeterGao",
+    url: "Dumbo",
   },
 } as const;
 
 export const links = {
-  sourceCode: "https://github.com/sanidhyy/duolingo-clone",
+  sourceCode: "Dumbo",
 } as const;
