@@ -57,7 +57,7 @@ export const Header = () => {
             >
               <Image
                 src="/github.svg"
-                alt="Source Code"
+                alt="ISU studio"
                 height={20}
                 width={20}
               />
