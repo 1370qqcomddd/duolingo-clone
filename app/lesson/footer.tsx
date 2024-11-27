@@ -39,7 +39,7 @@ export const Footer = ({
         {status === "wrong" && (
           <div className="flex items-center text-base font-bold text-rose-500 lg:text-2xl">
             <XCircle className="mr-4 h-6 w-6 lg:h-10 lg:w-10" />
-            再试试.
+            再试试,没关系已经很好了 !
           </div>
         )}
 
@@ -49,7 +49,7 @@ export const Footer = ({
             size={isMobile ? "sm" : "lg"}
             onClick={() => (window.location.href = `/lesson/${lessonId}`)}
           >
-            菜就多练
+            重新学习
           </Button>
         )}
 

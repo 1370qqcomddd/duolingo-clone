@@ -27,18 +27,18 @@ export const Items = ({
     if (pending || hearts === MAX_HEARTS || points < POINTS_TO_REFILL) return;
 
     startTransition(() => {
-      refillHearts().catch(() => toast.error("Something went wrong."));
+      refillHearts().catch(() => toast.error("服务出错,请联系 ISU 相关管理员"));
     });
   };
 
   const onUpgrade = () => {
-    toast.loading("Redirecting to checkout...");
+    toast.loading("正在加载支付页面");
     startTransition(() => {
       createStripeUrl()
         .then((response) => {
           if (response.data) window.location.href = response.data;
         })
-        .catch(() => toast.error("Something went wrong."));
+        .catch(() => toast.error("服务出错,请联系 ISU 相关管理员"));
     });
   };
 
