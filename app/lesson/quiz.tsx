@@ -182,7 +182,7 @@ export const Quiz = ({
           />
 
           <h1 className="text-lg font-bold text-neutral-700 lg:text-3xl">
-            干得漂亮! <br /> 你已经完成了这节课程练习
+            干得漂亮! <br /> 你已经完成了这节课程的学习
           </h1>
 
           <div className="flex w-full items-center gap-x-4">
@@ -205,7 +205,7 @@ export const Quiz = ({
 
   const title =
     challenge.type === "ASSIST"
-      ? "Select the correct meaning"
+      ? "选择正确的答案 Select the correct answer"
       : challenge.question;
 
   return (
@@ -227,100 +227,6 @@ export const Quiz = ({
 
             <div>
               {challenge.type === "ASSIST" && (
-                <QuestionBubble question={challenge.question} />
-              )}
-
-              <Challenge
-                options={options}
-                onSelect={onSelect}
-                status={status}
-                selectedOption={selectedOption}
-                disabled={pending}
-                type={challenge.type}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <Footer
-        disabled={pending || !selectedOption}
-        status={status}
-        onCheck={onContinue}
-      />
-    </>
-  );
-  const title =
-  challenge.type === "TEACH"
-    ? "点击下一步以继续"
-    : challenge.question;
-
-return (
-  <>
-    {incorrectAudio}
-    {correctAudio}
-    <Header
-      hearts={hearts}
-      percentage={percentage}
-      hasActiveSubscription={!!userSubscription?.isActive}
-    />
-
-    <div className="flex-1">
-      <div className="flex h-full items-center justify-center">
-        <div className="flex w-full flex-col gap-y-12 px-6 lg:min-h-[350px] lg:w-[600px] lg:px-0">
-          <h1 className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl">
-            {title}
-          </h1>
-
-          <div>
-            {challenge.type === "TEACH" && (
-              <QuestionBubble question={challenge.question} />
-            )}
-
-            <Challenge
-              options={options}
-              onSelect={onSelect}
-              status={status}
-              selectedOption={selectedOption}
-              disabled={pending}
-              type={challenge.type}
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <Footer
-      disabled={pending || !selectedOption}
-      status={status}
-      onCheck={onContinue}
-    />
-  </>
-  );
-  const title =
-    challenge.type === "QUIZ"
-      ? "Select the correct answer"
-      : challenge.question;
-
-  return (
-    <>
-      {incorrectAudio}
-      {correctAudio}
-      <Header
-        hearts={hearts}
-        percentage={percentage}
-        hasActiveSubscription={!!userSubscription?.isActive}
-      />
-
-      <div className="flex-1">
-        <div className="flex h-full items-center justify-center">
-          <div className="flex w-full flex-col gap-y-12 px-6 lg:min-h-[350px] lg:w-[600px] lg:px-0">
-            <h1 className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl">
-              {title}
-            </h1>
-
-            <div>
-              {challenge.type === "QUIZ" && (
                 <QuestionBubble question={challenge.question} />
               )}
 
