@@ -55,7 +55,7 @@ export const ExitModal = () => {
               size="lg"
               onClick={close}
             >
-              继续学习!
+              继续努力!
             </Button>
 
             <Button
