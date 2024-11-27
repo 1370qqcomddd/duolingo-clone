@@ -15,7 +15,7 @@ export const Quests = ({ points }: QuestsProps) => {
 
         <Link href="/quests">
           <Button size="sm" variant="primaryOutline">
-            View all
+            查看全部
           </Button>
         </Link>
       </div>

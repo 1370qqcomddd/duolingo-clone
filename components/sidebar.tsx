@@ -24,20 +24,20 @@ export const Sidebar = ({ className }: SidebarProps) => {
           <Image src="/mascot.svg" alt="Mascot" height={40} width={40} />
 
           <h1 className="text-2xl font-extrabold tracking-wide text-green-600">
-            Dumbo
+            河马爱学
           </h1>
         </div>
       </Link>
 
       <div className="flex flex-1 flex-col gap-y-2">
-        <SidebarItem label="Learn" href="/learn" iconSrc="/learn.svg" />
+        <SidebarItem label="学习" href="/learn" iconSrc="/learn.svg" />
         <SidebarItem
           label="Leaderboard"
           href="/leaderboard"
           iconSrc="/leaderboard.svg"
         />
-        <SidebarItem label="Quests" href="/quests" iconSrc="/quests.svg" />
-        <SidebarItem label="Shop" href="/shop" iconSrc="/shop.svg" />
+        <SidebarItem label="任务" href="/quests" iconSrc="/quests.svg" />
+        <SidebarItem label="积分商店" href="/shop" iconSrc="/shop.svg" />
       </div>
 
       <div className="p-4">

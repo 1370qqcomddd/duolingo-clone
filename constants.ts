@@ -4,27 +4,27 @@ export const MAX_HEARTS = 5;
 
 export const QUESTS = [
   {
-    title: "Earn 20 XP",
+    title: "获得 20 积分",
     value: 20,
   },
   {
-    title: "Earn 50 XP",
+    title: "获得 50 积分",
     value: 50,
   },
   {
-    title: "Earn 100 XP",
+    title: "获得 100 积分",
     value: 100,
   },
   {
-    title: "Earn 250 XP",
+    title: "获得 250 积分",
     value: 250,
   },
   {
-    title: "Earn 500 XP",
+    title: "获得 500 积分",
     value: 500,
   },
   {
-    title: "Earn 1000 XP",
+    title: "获得 1000 积分",
     value: 1000,
   },
 ];
