@@ -39,7 +39,7 @@ export const ExitModal = () => {
           </div>
 
           <DialogTitle className="text-center text-2xl font-bold">
-            等等!不要走...
+            等等，先别走！现在离开的话，你的进度就没了！
           </DialogTitle>
 
           <DialogDescription className="text-center text-base">
