@@ -10,7 +10,7 @@ export const Promo = () => {
         <div className="flex items-center gap-x-2">
           <Image src="/unlimited.svg" alt="Pro" height={26} width={26} />
 
-          <h3 className="text-lg font-bold">升级至 Dumbo+</h3>
+          <h3 className="text-lg font-bold">升级至 Hippo+</h3>
         </div>
 
         <p className="text-muted-foreground">无限橙子，学习高效神速、乐趣无穷!</p>
