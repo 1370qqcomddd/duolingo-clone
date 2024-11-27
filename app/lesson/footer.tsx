@@ -61,10 +61,10 @@ export const Footer = ({
           size={isMobile ? "sm" : "lg"}
           variant={status === "wrong" ? "danger" : "secondary"}
         >
-          {status === "none" && "Check"}
-          {status === "correct" && "Next"}
-          {status === "wrong" && "Retry"}
-          {status === "completed" && "Continue"}
+          {status === "none" && "检查答案"}
+          {status === "correct" && "下一关"}
+          {status === "wrong" && "重做"}
+          {status === "completed" && "继续"}
         </Button>
       </div>
     </footer>
