@@ -46,7 +46,7 @@ const LeaderboardPage = async () => {
         <div className="flex w-full flex-col items-center">
           <Image
             src="/leaderboard.svg"
-            alt="Leaderboard"
+            alt="排行榜"
             height={90}
             width={90}
           />

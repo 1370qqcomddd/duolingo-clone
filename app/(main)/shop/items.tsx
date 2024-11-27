@@ -49,7 +49,7 @@ export const Items = ({
 
         <div className="flex-1">
           <p className="text-base font-bold text-neutral-700 lg:text-xl">
-            Refill hearts
+            获取更多橙子
           </p>
         </div>
 
@@ -79,7 +79,7 @@ export const Items = ({
 
         <div className="flex-1">
           <p className="text-base font-bold text-neutral-700 lg:text-xl">
-            Unlimited hearts
+            无限橙子
           </p>
         </div>
 
