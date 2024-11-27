@@ -250,4 +250,98 @@ export const Quiz = ({
       />
     </>
   );
+  const title =
+  challenge.type === "TEACH"
+    ? "点击下一步以继续"
+    : challenge.question;
+
+return (
+  <>
+    {incorrectAudio}
+    {correctAudio}
+    <Header
+      hearts={hearts}
+      percentage={percentage}
+      hasActiveSubscription={!!userSubscription?.isActive}
+    />
+
+    <div className="flex-1">
+      <div className="flex h-full items-center justify-center">
+        <div className="flex w-full flex-col gap-y-12 px-6 lg:min-h-[350px] lg:w-[600px] lg:px-0">
+          <h1 className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl">
+            {title}
+          </h1>
+
+          <div>
+            {challenge.type === "ASSIST" && (
+              <QuestionBubble question={challenge.question} />
+            )}
+
+            <Challenge
+              options={options}
+              onSelect={onSelect}
+              status={status}
+              selectedOption={selectedOption}
+              disabled={pending}
+              type={challenge.type}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <Footer
+      disabled={pending || !selectedOption}
+      status={status}
+      onCheck={onContinue}
+    />
+  </>
+  );
+  const title =
+    challenge.type === "QUIZ"
+      ? "Select the correct answer"
+      : challenge.question;
+
+  return (
+    <>
+      {incorrectAudio}
+      {correctAudio}
+      <Header
+        hearts={hearts}
+        percentage={percentage}
+        hasActiveSubscription={!!userSubscription?.isActive}
+      />
+
+      <div className="flex-1">
+        <div className="flex h-full items-center justify-center">
+          <div className="flex w-full flex-col gap-y-12 px-6 lg:min-h-[350px] lg:w-[600px] lg:px-0">
+            <h1 className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl">
+              {title}
+            </h1>
+
+            <div>
+              {challenge.type === "ASSIST" && (
+                <QuestionBubble question={challenge.question} />
+              )}
+
+              <Challenge
+                options={options}
+                onSelect={onSelect}
+                status={status}
+                selectedOption={selectedOption}
+                disabled={pending}
+                type={challenge.type}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Footer
+        disabled={pending || !selectedOption}
+        status={status}
+        onCheck={onContinue}
+      />
+    </>
+  );
 };
