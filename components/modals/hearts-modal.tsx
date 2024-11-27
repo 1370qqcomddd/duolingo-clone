@@ -25,7 +25,7 @@ export const HeartsModal = () => {
 
   const onClick = () => {
     close();
-    router.push("/store");
+    router.push("/shop");
   };
 
   if (!isClient) return null;
@@ -48,7 +48,7 @@ export const HeartsModal = () => {
           </DialogTitle>
 
           <DialogDescription className="text-center text-base">
-            购买 Dumbo 以获得无限橙子! PS:你也可以在你已经通关的关卡中答题来免费获得橙子...
+            购买 Hippo+ 以获得无限橙子! PS:你也可以在积分商店用积分购买橙子...
           </DialogDescription>
         </DialogHeader>
 

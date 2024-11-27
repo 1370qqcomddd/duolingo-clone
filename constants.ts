@@ -1,6 +1,6 @@
-export const POINTS_TO_REFILL = 10;
+export const POINTS_TO_REFILL = 600;
 
-export const MAX_HEARTS = 5;
+export const MAX_HEARTS = 25;
 
 export const QUESTS = [
   {
@@ -27,4 +27,20 @@ export const QUESTS = [
     title: "获得 1000 积分",
     value: 1000,
   },
-];
+  {
+  title: "获得 2000 积分",
+  value: 2000,
+  },
+  {
+    title: "获得 5000 积分",
+    value: 5000,
+  },
+  {
+    title: "获得 10000 积分",
+    value: 10000,
+  },
+  {
+    title: "获得 50000 积分(我相信这无人可以完成)",
+    value: 50000,
+  },
+]; 

@@ -108,7 +108,7 @@ export const refillHearts = async () => {
 
   if (!currentUserProgress) throw new Error("User progress not found.");
   if (currentUserProgress.hearts === MAX_HEARTS)
-    throw new Error("橙子已经装满了!");
+    throw new Error("橙子已经满了!");
   if (currentUserProgress.points < POINTS_TO_REFILL)
     throw new Error("橙子不够了!");
 

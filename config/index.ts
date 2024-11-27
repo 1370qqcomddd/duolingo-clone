@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const siteConfig: Metadata = {
   title: "Dumbo",
   description:
-    "Interactive platform for language learning with lessons, quizzes, and progress tracking.",
+    "学会、玩会、还免费 !",
   keywords: [
     "reactjs",
     "nextjs",

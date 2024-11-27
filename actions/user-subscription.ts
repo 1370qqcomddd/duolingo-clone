@@ -37,7 +37,7 @@ export const createStripeUrl = async () => {
         price_data: {
           currency: "RMB",
           product_data: {
-            name: "Dumbo Pro",
+            name: "Hippo+",
             description: "无限橙子，学习高效神速、乐趣无穷!",
           },
           unit_amount: 900, // $20.00 USD

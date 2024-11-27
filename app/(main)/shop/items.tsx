@@ -63,7 +63,7 @@ export const Items = ({
           }
         >
           {hearts === MAX_HEARTS ? (
-            "full"
+            "橙子数量已满"
           ) : (
             <div className="flex items-center">
               <Image src="/points.svg" alt="Points" height={20} width={20} />
@@ -84,7 +84,7 @@ export const Items = ({
         </div>
 
         <Button onClick={onUpgrade} disabled={pending} aria-disabled={pending}>
-          {hasActiveSubscription ? "settings" : "upgrade"}
+          {hasActiveSubscription ? "settings" : "升级到 Hippo+"}
         </Button>
       </div>
     </ul>
