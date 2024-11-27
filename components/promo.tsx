@@ -17,7 +17,7 @@ export const Promo = () => {
       </div>
 
       <Button variant="super" className="w-full" size="lg" asChild>
-        <Link href="/shop">现在就升级! 支持Dumbo的免费教育</Link>
+        <Link href="/shop">现在就升级!</Link>
       </Button>
     </div>
   );

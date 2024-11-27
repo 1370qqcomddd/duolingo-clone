@@ -32,14 +32,14 @@ export const Footer = ({
         {status === "correct" && (
           <div className="flex items-center text-base font-bold text-green-500 lg:text-2xl">
             <CheckCircle className="mr-4 h-6 w-6 lg:h-10 lg:w-10" />
-            Nicely done!
+            好样的!
           </div>
         )}
 
         {status === "wrong" && (
           <div className="flex items-center text-base font-bold text-rose-500 lg:text-2xl">
             <XCircle className="mr-4 h-6 w-6 lg:h-10 lg:w-10" />
-            Try again.
+            再试试.
           </div>
         )}
 
@@ -49,7 +49,7 @@ export const Footer = ({
             size={isMobile ? "sm" : "lg"}
             onClick={() => (window.location.href = `/lesson/${lessonId}`)}
           >
-            Practice again
+            菜就多练
           </Button>
         )}
 

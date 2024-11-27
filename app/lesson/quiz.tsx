@@ -182,7 +182,7 @@ export const Quiz = ({
           />
 
           <h1 className="text-lg font-bold text-neutral-700 lg:text-3xl">
-            Great job! <br /> You&apos;ve completed the lesson.
+            干得漂亮! <br /> 你已经完成了这节课程练习
           </h1>
 
           <div className="flex w-full items-center gap-x-4">
