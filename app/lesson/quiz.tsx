@@ -273,7 +273,7 @@ return (
           </h1>
 
           <div>
-            {challenge.type === "ASSIST" && (
+            {challenge.type === "TEACH" && (
               <QuestionBubble question={challenge.question} />
             )}
 
@@ -320,7 +320,7 @@ return (
             </h1>
 
             <div>
-              {challenge.type === "ASSIST" && (
+              {challenge.type === "QUIZ" && (
                 <QuestionBubble question={challenge.question} />
               )}
 
