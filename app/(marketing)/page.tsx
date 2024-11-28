@@ -21,7 +21,7 @@ export default function MarketingPage() {
 
       <div className="flex flex-col items-center gap-y-8">
         <h1 className="max-w-[480px] text-center text-xl font-bold text-neutral-600 lg:text-3xl">
-        在 Hippo 学习，学⁠会、玩⁠会，还⁠免⁠费！
+        在 HMAX 学习，学⁠会、玩⁠会，还⁠免⁠费！
 
         </h1>
 
