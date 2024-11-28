@@ -84,7 +84,7 @@ export const Items = ({
         </div>
 
         <Button onClick={onUpgrade} disabled={pending} aria-disabled={pending}>
-          {hasActiveSubscription ? "settings" : "升级到 Hippo+"}
+          {hasActiveSubscription ? "续费" : "升级到 Hippo+"}
         </Button>
       </div>
     </ul>
