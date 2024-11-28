@@ -79,12 +79,12 @@ export const Items = ({
 
         <div className="flex-1">
           <p className="text-base font-bold text-neutral-700 lg:text-xl">
-           Hippo+ (无限橙子)
+           Hippro (无限橙子)
           </p>
         </div>
 
         <Button onClick={onUpgrade} disabled={pending} aria-disabled={pending}>
-          {hasActiveSubscription ? "续费" : "升级到 Hippo+"}
+          {hasActiveSubscription ? "续费" : "升级到 Hippro"}
         </Button>
       </div>
     </ul>
