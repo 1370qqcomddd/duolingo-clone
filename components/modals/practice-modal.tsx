@@ -32,11 +32,11 @@ export const PracticeModal = () => {
           </div>
 
           <DialogTitle className="text-center text-2xl font-bold">
-            答错题目将消耗一个橘子
+            此次答题将不会变更你的橘子数量!!!
           </DialogTitle>
 
           <DialogDescription className="text-center text-base">
-          答错题目将消耗一个橘子来保存你的进度,答对题目将会重新获得橘子和积分。
+          你已经答对过此题目了,所以此次答题不会变更你的橘子数量和积分数量!!! 如果想获得更多的橘子和积分,请尝试更多新题目 !!
           </DialogDescription>
         </DialogHeader>
 
