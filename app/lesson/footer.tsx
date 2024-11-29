@@ -32,14 +32,14 @@ export const Footer = ({
         {status === "correct" && (
           <div className="flex items-center text-base font-bold text-green-500 lg:text-2xl">
             <CheckCircle className="mr-4 h-6 w-6 lg:h-10 lg:w-10" />
-            好样的!
+            好样的! Good job!
           </div>
         )}
 
         {status === "wrong" && (
           <div className="flex items-center text-base font-bold text-rose-500 lg:text-2xl">
             <XCircle className="mr-4 h-6 w-6 lg:h-10 lg:w-10" />
-            再试试,没关系已经很好了 !
+            再试试 False
           </div>
         )}
 
@@ -49,7 +49,7 @@ export const Footer = ({
             size={isMobile ? "sm" : "lg"}
             onClick={() => (window.location.href = `/lesson/${lessonId}`)}
           >
-            重新学习
+            重新学习Relearn
           </Button>
         )}
 
@@ -61,10 +61,10 @@ export const Footer = ({
           size={isMobile ? "sm" : "lg"}
           variant={status === "wrong" ? "danger" : "secondary"}
         >
-          {status === "none" && "检查答案"}
-          {status === "correct" && "下一关"}
-          {status === "wrong" && "重做"}
-          {status === "completed" && "继续"}
+          {status === "none" && "NEXT"}
+          {status === "correct" && "NEXT"}
+          {status === "wrong" && "Again"}
+          {status === "completed" && "NEXT"}
         </Button>
       </div>
     </footer>
