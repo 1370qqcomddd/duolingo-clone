@@ -55,7 +55,7 @@ const LeaderboardPage = async () => {
             排行榜
           </h1>
           <p className="mb-6 text-center text-lg text-muted-foreground">
-           了解其他学习者的位置
+           了解其他学习者的位置 Knowing where other learners are!
           </p>
 
           <Separator className="mb-4 h-0.5 rounded-full" />

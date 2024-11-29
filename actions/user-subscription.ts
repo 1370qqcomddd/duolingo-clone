@@ -38,7 +38,7 @@ export const createStripeUrl = async () => {
           currency: "RMB",
           product_data: {
             name: "Hippro+",
-            description: "无限橙子，学习高效神速、乐趣无穷!",
+            description: "无限橙子，学习高效神速、乐趣无穷! Unlimited Oranges, learning is efficient, fast and fun!",
           },
           unit_amount: 900, // $20.00 USD
           recurring: {

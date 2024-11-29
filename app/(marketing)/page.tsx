@@ -21,7 +21,7 @@ export default function MarketingPage() {
 
       <div className="flex flex-col items-center gap-y-8">
         <h1 className="max-w-[480px] text-center text-xl font-bold text-neutral-600 lg:text-3xl">
-        在 HMAX 学习，学⁠会、玩⁠会，还⁠免⁠费！
+        在 HMAX 学习，学⁠会、玩⁠会，还⁠免⁠费！ Learn, learn, play, and learn for free at HMAX!
 
         </h1>
 
@@ -38,7 +38,7 @@ export default function MarketingPage() {
                 afterSignUpUrl="/learn"
               >
                 <Button size="lg" variant="secondary" className="w-full">
-                  开始学习
+                  开始学习 Starting now
                 </Button>
               </SignUpButton>
 
@@ -48,14 +48,14 @@ export default function MarketingPage() {
                 afterSignUpUrl="/learn"
               >
                 <Button size="lg" variant="primaryOutline" className="w-full">
-                  我已有账户
+                  我已有账户 I already have an account.
                 </Button>
               </SignInButton>
             </SignedOut>
 
             <SignedIn>
               <Button size="lg" variant="secondary" className="w-full" asChild>
-                <Link href="/learn">继续学习</Link>
+                <Link href="/learn">继续学习 Continue learning</Link>
               </Button>
             </SignedIn>
           </ClerkLoaded>

@@ -39,11 +39,11 @@ export const ExitModal = () => {
           </div>
 
           <DialogTitle className="text-center text-2xl font-bold">
-            等等，先别走！现在离开的话，你的进度就没了！
+            等等，先别走！现在离开的话，你的进度就没了！Wait, don't leave yet! If you leave now, you'll lose your progress!
           </DialogTitle>
 
           <DialogDescription className="text-center text-base">
-            你确定要结束学习吗?
+            你确定要结束学习吗? Are you sure you want to quit your studies?
           </DialogDescription>
         </DialogHeader>
 
@@ -55,7 +55,7 @@ export const ExitModal = () => {
               size="lg"
               onClick={close}
             >
-              继续努力!
+              继续努力! Keep up the good work!
             </Button>
 
             <Button
@@ -67,7 +67,7 @@ export const ExitModal = () => {
                 router.push("/learn");
               }}
             >
-              结束学习
+              结束学习 Leave
             </Button>
           </div>
         </DialogFooter>
