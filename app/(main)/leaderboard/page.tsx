@@ -39,6 +39,7 @@ const LeaderboardPage = async () => {
           hasActiveSubscription={isPro}
         />
         {!isPro && <Promo />}
+        {!isPro && <schoolmodeup />}
         <Quests points={userProgress.points} />
       </StickyWrapper>
 
