@@ -1,10 +1,9 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
-import { Schoolmodeup } from '@/components/schoolmodeup';
-
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { Promo } from "@/components/promo";
+import { Schoolmodeup } from '@/components/schoolmodeup';
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
