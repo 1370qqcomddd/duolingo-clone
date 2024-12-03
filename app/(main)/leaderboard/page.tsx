@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
-import Schoolmodeup from './components/schoolmodeup.tsx';
+import Schoolmodeup from '1370qqcomddd/duolingo-clone/components/schoolmodeup.tsx';
 
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { Promo } from "@/components/promo";
