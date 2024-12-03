@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
+import Schoolmodeup from './components/Schoolmodeup';
+
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { Promo } from "@/components/promo";
 import { Quests } from "@/components/quests";
@@ -39,7 +41,7 @@ const LeaderboardPage = async () => {
           hasActiveSubscription={isPro}
         />
         {!isPro && <Promo />}
-        {<schoolmodeup />}
+        {<Schoolmodeup />}
         <Quests points={userProgress.points} />
       </StickyWrapper>
 
