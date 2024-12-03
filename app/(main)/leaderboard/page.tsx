@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
-import Schoolmodeup from '@/components/schoolmodeup';
+import { Schoolmodeup } from '@/components/Schoolmodeup';
 
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { Promo } from "@/components/promo";
