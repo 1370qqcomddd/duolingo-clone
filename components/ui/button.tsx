@@ -35,7 +35,7 @@ const buttonVariants = cva(
 
         schoolup:
         "bg-slate-500 text-primary-foreground hover:bg-slate-500/90 border-slate-600 border-b-4 active:border-b-0",
-        schoolup: "bg-white text-slate-500 hover:bg-slate-100",
+        schoolupoutline: "bg-white text-slate-500 hover:bg-slate-100",
 
         ghost:
           "bg-transparent text-slate-500 border-transparent border-0 hover:bg-slate-100",
